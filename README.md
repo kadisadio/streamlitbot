@@ -18,3 +18,9 @@ Un projet de chatbot basé sur Python & API
    ```bash
    git clone <URL-du-depot>
    cd <nom-du-dossier>
+
+2. Installez les dépendances :
+   ```bash
+   pip install -r requirements.txt
+2. Ouvre VSC ou other
+3. Lance les fichiers py
