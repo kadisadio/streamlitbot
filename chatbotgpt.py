@@ -51,3 +51,13 @@ option = st.selectbox(
      ('gpt-3.5-turbo', 'gpt-3.5-turbo-instruct', 'gpt-3.5-turbo-1106', 'gpt-3.5-turbo-0125'))
 
 st.write('Your modele is ', option)
+
+
+
+import streamlit as st
+from datetime import time, datetime
+
+st.header('st.slider')
+
+max_tokens = st.slider('max_tokens', 0, 500)
+st.write("Token choosen:", max_tokens)
